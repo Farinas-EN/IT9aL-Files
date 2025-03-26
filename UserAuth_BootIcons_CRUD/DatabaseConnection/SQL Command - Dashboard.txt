@@ -1,0 +1,17 @@
+#Accces to MySQL's database
+mysql -h localhost -u root
+
+#To create the main databse/if already created, proceed to the next step
+CREATE DATABASE usermanagementdatabase;
+
+#To use the created database
+USE usermanagementdatabase;
+
+#To create the table for recipes
+CREATE TABLE recipes (
+    RecipeID INT AUTO_INCREMENT PRIMARY KEY,
+    Title VARCHAR(255) NOT NULL,
+    Description TEXT NOT NULL,
+    CreatedBy VARCHAR(100) NOT NULL,
+    CreatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

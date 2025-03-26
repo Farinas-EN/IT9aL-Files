@@ -1,0 +1,93 @@
+/* 📌 General container styling */
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 📌 Title Styling */
+.dashboard-title {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* 📌 Add Recipe Button */
+.btn-add {
+  display: block;
+  width: 200px;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 📌 Table Styling */
+.recipe-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.recipe-table th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.recipe-table td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* 📌 Recipe Title & Description */
+.recipe-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.recipe-desc {
+  font-size: 14px;
+  color: gray;
+}
+
+/* 📌 Edit & Delete Buttons */
+.btn-edit {
+  background-color: #ffc107;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-edit:hover {
+  background-color: #e0a800;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-delete:hover {
+  background-color: #c82333;
+}
+
+/* 📌 Logout Button */
+.btn-logout {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+#Accces to MySQL's database
+mysql -h localhost -u root
+
+#To create the main databse
+CREATE DATABASE usermanagementdatabase;
+
+#To use the created database
+USE usermanagementdatabase;
+
+#To create a table for list of users
+CREATE TABLE users_list (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    DateofBirth DATE NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL,
+    Username VARCHAR(50) UNIQUE NOT NULL,
+    EmailAddress VARCHAR(100) UNIQUE NOT NULL,
+    Password VARCHAR(255) NOT NULL
+);
+
+#To Create a table for checklists
+CREATE TABLE users_list (
+    UserID INT AUTO_INCREMENT PRIMARY KEY,
+    FirstName VARCHAR(50) NOT NULL,
+    LastName VARCHAR(50) NOT NULL,
+    DateofBirth DATE NOT NULL,
+    PhoneNumber VARCHAR(15) NOT NULL,
+    Username VARCHAR(50) UNIQUE NOT NULL,
+    EmailAddress VARCHAR(100) UNIQUE NOT NULL,
+    Password VARCHAR(255) NOT NULL
+);
+

@@ -1,0 +1,81 @@
+/* 📌 General container styling */
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* 📌 Title Styling */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* 📌 Form Styling */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* 📌 Labels */
+label {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  display: block;
+  color: #555;
+}
+
+/* 📌 Input Fields */
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* 📌 Textarea Styling */
+textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+/* 📌 Button Styling */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* 📌 Back to Dashboard Link */
+a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
