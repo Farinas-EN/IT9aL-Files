@@ -1,0 +1,124 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(to right, #58deff, #4a91aa);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Container Styling */
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 1, 0.1);
+  text-align: center;
+}
+
+/* Heading Style */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: hsl(327, 100%, 50%);
+}
+
+/* Button Style */
+a.btn {
+  display: inline-block;
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background: rgb(125, 125, 235);
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+a.btn:hover {
+  background: #07001f;
+}
+
+/* Input Group Style */
+.input-group {
+  position: relative;
+  margin-bottom: 20px; /* Space between each group */
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 10px 10px 10px 35px;
+  font-size: 15px;
+  border: none;
+  border-bottom: 2px solid #757575;
+  background-color: transparent;
+  transition: border-color 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-bottom: 2px solid hsl(327, 90%, 28%);
+}
+
+.input-group label {
+  position: absolute;
+  left: 35px;
+  top: 12px;
+  color: #757575;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.input-group input:focus ~ label,
+.input-group input:not(:placeholder-shown) ~ label,
+.input-group textarea:focus ~ label,
+.input-group textarea:not(:placeholder-shown) ~ label {
+  top: -10px;
+  left: 10px;
+  font-size: 12px;
+  color: hsl(327, 90%, 28%);
+}
+
+/* Textarea Styling */
+textarea {
+  min-height: 100px;
+  padding: 10px;
+}
+
+textarea:focus {
+  border-bottom: 2px solid hsl(327, 90%, 28%);
+}
+
+/* Submit Button Styling */
+button {
+  font-size: 1.1rem;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  background: rgb(125, 125, 235);
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #07001f;
+}

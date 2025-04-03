@@ -1,0 +1,16 @@
+#Accces to MySQL's database
+mysql -h localhost -u root
+
+#To create the main databse/if already created, proceed to the next step
+CREATE DATABASE recipe_database;
+
+#To use the created database
+USE recipe_database;
+
+CREATE TABLE recipes (
+    RecipeID INT AUTO_INCREMENT PRIMARY KEY,
+    RecipeName VARCHAR(255) NOT NULL,
+    Description TEXT NOT NULL,
+    ImagePath VARCHAR(255),
+    CreatedBy VARCHAR(255) NOT NULL
+);
